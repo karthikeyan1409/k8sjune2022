@@ -5,7 +5,7 @@ metadata:
 spec:
   selector: 
     tier: frontend
-  type: NodePort
+  type: LoadBalancer
   ports:
     - name: http
       port: 3002
